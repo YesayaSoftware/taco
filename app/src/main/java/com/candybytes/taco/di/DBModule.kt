@@ -2,8 +2,8 @@ package com.candybytes.taco.di
 
 import android.content.Context
 import androidx.room.Room
-import com.candybytes.taco.db.FoodDao
-import com.candybytes.taco.db.FoodDb
+import com.candybytes.taco.data.db.FoodDao
+import com.candybytes.taco.data.db.FoodDb
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

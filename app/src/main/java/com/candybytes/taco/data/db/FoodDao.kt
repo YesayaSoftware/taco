@@ -1,4 +1,4 @@
-package com.candybytes.taco.db
+package com.candybytes.taco.data.db
 
 import androidx.room.Dao
 import androidx.room.Insert

@@ -1,4 +1,4 @@
-package com.candybytes.taco.db
+package com.candybytes.taco.data.db
 
 import androidx.room.TypeConverter
 import com.candybytes.taco.ui.util.fromJson

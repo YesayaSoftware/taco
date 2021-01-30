@@ -2,6 +2,7 @@ package com.candybytes.taco.api
 
 import com.candybytes.taco.vo.Category
 import com.candybytes.taco.vo.Food
+import kotlinx.coroutines.Deferred
 import retrofit2.http.GET
 import retrofit2.http.Path
 
@@ -21,7 +22,7 @@ interface TacoService {
      * Request all available categories
      */
     @GET("api/v1/category")
-    suspend fun getAllCategoriesAsync(): List<Category>
+    suspend fun getAllCategoriesAsync(): Deferred<List<Category>>
 
     /**
      * Request all available categories

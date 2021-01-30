@@ -6,7 +6,7 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
 import androidx.lifecycle.map
-import com.candybytes.taco.db.FoodDao
+import com.candybytes.taco.data.db.FoodDao
 import timber.log.Timber
 
 class SearchFoodViewModel @ViewModelInject constructor(

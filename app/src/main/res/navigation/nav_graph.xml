@@ -9,7 +9,11 @@
         android:id="@+id/categoriesFragment"
         android:name="com.candybytes.taco.ui.fragments.CategoryListFragment"
         android:label="@string/menu_category"
-        tools:layout="@layout/fragment_category_list" />
+        tools:layout="@layout/fragment_category_list" >
+        <action
+            android:id="@+id/action_categoriesFragment_to_searchFoodFragment"
+            app:destination="@id/searchFoodFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/searchFoodFragment"
